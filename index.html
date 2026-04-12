@@ -39,6 +39,22 @@
             opacity: 0.7;
         }
 
+        #header a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 8px 16px;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 6px;
+            transition: background 0.2s, border-color 0.2s;
+        }
+
+        #header a:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.6);
+        }
+
         #map {
             height: calc(100vh - 60px);
             width: 100%;
@@ -211,6 +227,7 @@
             <h1>LA Youth Afterschool Programs</h1>
             <p>Interactive map of free and low-cost programs for young people</p>
         </div>
+        <a href="about.html">About Us</a>
     </div>
     <div id="map"></div>
 
